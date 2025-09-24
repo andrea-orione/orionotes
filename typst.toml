@@ -1,0 +1,10 @@
+[package]
+name = "orionotes-unito"
+version = "0.0.0"
+entrypoint = "lib.typ"
+authors = ["Andrea Orione <@andrea-orione>"]
+license = "MIT"
+description = "Minimal template for note-taking of full uni courses. Developed to publish at UniTo"
+repository = "https://github.com/andrea-orione/orionotes-unito"
+keywords = ["notes", "script", "book", "non-fiction", "running header", "class", "lecture"]
+categories = ["book", "report"]

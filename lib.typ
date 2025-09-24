@@ -64,7 +64,7 @@
 
         #if front-image!=none {
           v-space
-          image(front-image, width: 100%)
+          front-image
         }
 
         #if university!="" or degree!= "" {
