@@ -1,10 +1,15 @@
 [package]
-name = "orionotes-unito"
+name = "orionotes"
 version = "0.0.0"
 entrypoint = "lib.typ"
 authors = ["Andrea Orione <@andrea-orione>"]
 license = "MIT"
-description = "Minimal template for note-taking of full uni courses. Developed to publish at UniTo"
-repository = "https://github.com/andrea-orione/orionotes-unito"
-keywords = ["notes", "script", "book", "non-fiction", "running header", "class", "lecture"]
+description = "Take book like notes of entire university courses."
+repository = "https://github.com/andrea-orione/orionotes"
+keywords = ["notes", "book", "non-fiction", "running header", "class", "lecture"]
 categories = ["book", "report"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
