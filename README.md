@@ -42,7 +42,7 @@ This template exports the `orionotes` function with the following named argument
 | `university` | `University of Turin UniTo` | [content] | The university where the course took place. Set to `none` to disable. |
 | `degree` | `Master degree in Astrophysics` | [content] | The degree of the course. Set to `none` to disable. |
 | `date` | `Academic Year` | [string] | The date string to display. |
-| `pre-autors` | `(sing:"Author", plur:"Authors")` | [dictionary] | What to write before the authors. There should be an alternative for just one author (in `sing`) and multiple authors (in `plur`). The semicolon is not needed. |
+| `pre-authors` | `(sing:"Author", plur:"Authors")` | [dictionary] | What to write before the authors. There should be an alternative for just one author (in `sing`) and multiple authors (in `plur`). The semicolon is not needed. |
 | `pre-professors` | `(sing:"Professor", plur:"Professors")` | [dictionary] | What to write before the professors. There should be an alternative for just one professor (in `sing`) and multiple professors (in `plur`). The semicolon is not needed. |
 | `top-section-name` | `Chapter` | [string] | The typographic name of level 1 section. Used to display the chapters. |
 | `front-image` | `none` | [content] | The image to be shown on the first page. Set to `none` to disable. |

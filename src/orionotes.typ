@@ -22,11 +22,11 @@
   degree: [Master degree in Astrophysics],
   // The date of the work. Set to none to disable.
   date: "Academic Year",
-  // What to write before the autors (the semicolon is not needed).
-  pre-autors: (sing:"Author", plur:"Authors"),
+  // What to write before the authors (the semicolon is not needed).
+  pre-authors: (sing:"Author", plur:"Authors"),
   // What to write before the professors (the semicolon is not needed).
   pre-professors: (sing:"Professor", plur:"Professors"),
-  // The typografic name of the level 1 section.
+  // The typographic name of the level 1 section.
   // TODO: Check the language dependency.
   top-section-name: "Chapter",
   // The image to insert in the first page. Set to none to disable.
@@ -62,7 +62,7 @@
 
         #v-space
         #align(left)[
-          #text(1.6em)[#get-auth-str(authors, pre-autors)]\
+          #text(1.6em)[#get-auth-str(authors, pre-authors)]\
           #text(1.6em)[#get-prof-str(professors, pre-professors)]
         ]
 

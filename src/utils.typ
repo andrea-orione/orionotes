@@ -1,11 +1,11 @@
 // LTeX: language=it-IT
-#let get-auth-str(authors, pre-autors) = {
+#let get-auth-str(authors, pre-authors) = {
   let many = type(authors) == array and authors.len() > 1
   let auths-str = if type(authors) == str { authors } else { authors.join(", ") }
 
-  let auths-pre = if type(pre-autors) == str { pre-autors }
-    else if many { pre-autors.at("plur") }
-    else { pre-autors.at("sing") }
+  let auths-pre = if type(pre-authors) == str { pre-authors }
+    else if many { pre-authors.at("plur") }
+    else { pre-authors.at("sing") }
 
   return [#auths-pre: #auths-str]
 }
