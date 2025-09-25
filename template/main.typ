@@ -1,4 +1,4 @@
-#import "@local/orionotes:0.0.0": orionotes
+#import "@preview/orionotes:0.1.0": orionotes
 
 #show: orionotes.with(
   title: [Title of your work],

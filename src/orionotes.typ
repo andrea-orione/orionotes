@@ -180,7 +180,9 @@
   // Appendix
   if appendix.enabled {
     pagebreak()
-    heading(level: 1)[#appendix.at("title", default: "Appendix")]
+    heading(level: 1)[
+      #smallcaps[#appendix.at("title", default: "Appendix")]
+    ]
 
     // For heading prefixes in the appendix, the standard convention is A.1.1.
     let num-fmt = "A.1.1."
